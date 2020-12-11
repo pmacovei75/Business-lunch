@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Macovei Panaghia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/style.css"/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+        <link rel="icon" type=image/png href="../images/images.png"/>
+        <script src="../js/main.js"></script>
+    </head> 
+    <body>
+       <header>
+          <img class="header-logo" src="../images/unnamed.png" alt="logou">
+          <div id="navbar"class="nav">
+                <a href="../index.html" >Home</a>
+                <a href="Despre noi.html">Despre noi</a>
+                <a href="desert.html" >Desert</a>
+                <a href="băuturi.html" >Băuturi</a>
+                <a href="contacte.html">Contacte</a>
+                <a href="comanda.html" class="active">Comandă</a>
+                <a class="hamburger-menu" onclick="mobileMenu()"> <i class="fa fa-bars"></i> </a>
+            </div>
+        </header>
+       <div class=container>
+          <br/>
+          <h4 class="centered" >LIVRARE LA DOMICILIU</h4>
+            <p>
+                Livrăm la domiciului tortă, pizza, prăjituri.
+                Pentru a primi comanda, înregistraţivă mai jos.
+            </p>
+            <hr>
+          <div class="row">
+             <br/>
+                <div class="col-4">
+                   <div class="contact-form">
+                       <h4 class="centered">  Contactează-ne</h4>
+                       <hr> 
+                        <form>
+                           <label for="nume"> Nume: </label>
+                           <input class="input-box" type="text" name="nume" id="nume"/> <br/>
+                           <label for="nume"> Prenume: </label>
+                           <input class="input-box" type="text" name="nume" id="nume"/> <br/>
+                           <label for="motiv">Denumirea comenzei:</label>
+                            <select name="motiv" id="email">
+                               <option>tortă</option>
+                               <option>pizza</option>
+                               <option>prăjituri</option>
+                           </select> <br/>
+                           <label for="number"> Numărul de produsele: </label>
+                           <input type="number" name="number" id="number"/> <br/>
+                           <label for="date"> Data comenzei: </label>
+                           <input type="date" name="date" id="date"/> <br/>
+                           <label for="time"> Ora comenzei: </label>
+                           <input type="time" name="time" id="time"/> <br/>
+                           <label for="nume"> E-mail: </label>
+                           <input class="input-box" type="email" name="email" id="email"/> <br/><br/>
+                           <input class= "input-submit" type="submit" value="tarnsmite"/>
+                        </form>
+
+                    </div>
+                
+                </div>
+                <br/>
+                <div class="col-6 centered">
+                    <img src="../images/desert1.jpg" alt="o poza" widht="400" height="300"/>
+                </div>
+           </div> 
+           <hr/>
+        </div>
+       <footer>
+           <div class="centered footer-info">
+             <span>Macovei Panaghia </span> <br/>
+             <span id="an"> </span>
+           </div> 
+           
+        </footer>
+        <script src="../js/main.js"></script>
+     
+    </body>    
+</html>
